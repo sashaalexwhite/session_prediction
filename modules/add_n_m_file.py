@@ -76,7 +76,7 @@ def add_n_m_file():
                 os.remove(local_file_path)
                 logging.error(f'Error processing the file {filename}: {e}')
 
-    logging.info("All files have been successfully uploaded to the Google Cloud Storage and BigQuery.Локальная папка стёрта ")
+    logging.info("All files have been successfully uploaded to the Google Cloud Storage and BigQuery.Local folder erased")
 
 if __name__ == '__main__':
     add_n_m_file()
